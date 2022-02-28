@@ -49,5 +49,6 @@ Console.ReadLine();
 
 void Print(TimeSpan ts)
 {
-    Console.Write(@"{0} Seconds and {1} Milliseconds", ts.Seconds, ts.Milliseconds);
+    //Console.Write(@"{0} Seconds and {1} Milliseconds", ts.Seconds, ts.Milliseconds);
+    Console.Write(@"Total Milliseconds : {0}", ts.TotalMilliseconds);
 }
